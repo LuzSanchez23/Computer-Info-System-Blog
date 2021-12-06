@@ -12,9 +12,10 @@ h1 {
 }
 h2 {
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .row1 {
-    background-color: rgb(8, 10, 158);
+    background-color: rgb(240, 10, 79);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -22,6 +23,26 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
+}
+.col-md-4 {
+    background-color: rgb(240, 10, 79);
+    color: white;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.row2 {
+    background-color: rgb(8, 10, 158);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 90%;
 }
 .col-md-7 {
     float: right;
@@ -36,7 +57,7 @@ h2 {
     color: white;
     
 }
-.row2 {
+.row3 {
     background-color: pink;
     display: block;
     margin-left: auto;
@@ -44,21 +65,22 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    width: 100%;
+    width: 80%;
 }
-.col-md-8 {
+.col-md-9 {
     float: right;
     background-color: pink;
 }
-.col-md-4 {
+.col-md-3 {
     float: left;
     background-color: pink;
     height: 385px;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
 }
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
