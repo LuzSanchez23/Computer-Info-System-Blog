@@ -16,8 +16,42 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
-.row1 {
-    background-color: rgb(240, 10, 79);
+.row5 {
+    background-color:purple;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+    font-weight: 600;
+    color: white;
+}
+.row4 {
+    background-color: rgb(8, 133, 14);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 90%;
+}
+.col-md-3-application {
+    background-color: rgb(8, 133, 14);
+    color: skyblue;
+}
+.col-md-3-application-pro {
+    float: left;
+    margin-left: 70px;
+    color: skyblue;
+}
+.col-md-3-application-mg {
+    margin-bottom: 20px;
+}
+.row3 {
+    background-color: orange;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +61,7 @@ h2 {
     width: 100%;
 }
 .col-md-4 {
-    background-color: rgb(240, 10, 79);
+    background-color: orange;
     color: white;
     float: right;
 }
@@ -59,8 +93,8 @@ ul {
     color: white;
     
 }
-.row3 {
-    background-color: pink;
+.row1 {
+    background-color: rgb(197, 25, 120);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,11 +105,11 @@ ul {
 }
 .col-md-9 {
     float: right;
-    background-color: pink;
+    background-color: rgb(197, 25, 120);
 }
 .col-md-3 {
     float: left;
-    background-color: pink;
+    background-color: rgb(197, 25, 120);
     height: 385px;
     text-align: center;
     font-size: 18px;
