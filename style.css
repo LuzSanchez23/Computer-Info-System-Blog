@@ -16,6 +16,26 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
+.row6 {
+    background-color:red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+    color: black;
+}
+.col-md-3-tips {
+    float: left;
+    margin-left: 70px;
+    color: rgb(225, 218, 238);
+}
+.col-md-3-imagen {
+    margin-bottom: 20px;
+}
 .row5 {
     background-color:purple;
     display: block;
